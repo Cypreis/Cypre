@@ -1,0 +1,19 @@
+void age()
+{
+  char nomjoueur1 [20];
+  char nomjoueur2 [20];
+  int agejoueur;
+  int agejoueur1;
+  int agejoueur2;
+  printf("Joueur 1 saisissez votre nom :"); scanf("%s",&nomjoueur1 ); printf("Et votre age :"); scanf("%d",&agejoueur1 );
+  printf("\nJoueur 2 saisissez votre nom :"); scanf("%s",&nomjoueur2 ); printf("Et votre age :"); scanf("%d",&agejoueur2 );
+  if (agejoueur1 > agejoueur2)
+  {
+    agejoueur = agejoueur2;
+  }
+  else
+  {
+    agejoueur = agejoueur1;
+}
+printf("%d\n",agejoueur );
+}
